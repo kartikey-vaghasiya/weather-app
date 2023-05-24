@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="Utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <!-- Wrapper div -->
+        <div class="container">
+
+            <!-- searchbar -->
+
+            <!-- current temperature -->
+            <div class="currTemp">
+
+                <div class="cityname" id="cityTXT">City</div>
+                <div class="citytemp">0<sup>C</sup></div>
+                <div class="icon">
+                    <img src="" class="weathericon" width="40" alt="" />
+                </div>
+
+            </div>
+            <form action="" id="search">
+                <input type="text" class="searchbox" id="city" placeholder="Search for cities">
+                <button type="submit" class="searchbtn">Search</button>
+            </form>
+
+            <!-- Air conditions -->
+            <div class="air">
+                <div id="airtxt">
+                    <h5>Air Conditions</h5>
+                </div>
+                <div class="airdiv">
+
+                    <div class="insideair">
+                        <h5>Feels Like</h5>
+                        <h4 id="realfeel">0</h4>
+                    </div>
+                    <div class="insideair">
+                        <h5>Humidity</h5>
+                        <h4 id="humidity">0</h4>
+                    </div>
+                    <div class="insideair">
+                        <h5>Pressure</h5>
+                        <h4 id="pressure">0</h4>
+                    </div>
+                    <div class="insideair">
+                        <h5>Windspeed</h5>
+                        <h4 id="windspeed">0</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+
+</html>
